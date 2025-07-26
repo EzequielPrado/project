@@ -80,7 +80,7 @@ function App() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://eduardo.noctai.com.br/webhook/64053456-f77e-4204-85fd-ff9e1441c428', {
+      const response = await fetch('https://eduardo.noctai.com.br/webhook/gateway', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
